@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vangelis Suite</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--home-->
+    <section class="container bg-img py-2">
+      <div class="h1 text-center my-3">Vangelis Suite</div>
+      <div class="h2 text-center my-3">Hotel and Spa</div>
+      <div class="container text-center bg-form">
+        <div class="row mb-2">
+          <div class="col"> <label for="name" class="form-label">Name: </label>
+            <input type="text" class="form-control" id="name" placeholder="name">
+          </div>
+          <div class="col"> <label for="surname" class="form-label">Surname: </label>
+            <input type="text" class="form-control" id="surname" placeholder="surname">
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col"> <label for="email" class="form-label">Email: </label>
+            <input type="email" class="form-control" id="email" placeholder="name.surname@example.com">
+          </div>
+          <div class="col"> <label for="surname" class="form-label">Telephone:</label>
+            <input type="text" class="form-control" id="telephone" placeholder="+421 123 456 789">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"> <label for="guests" class="form-label">Guests:</label>
+            <input type="text" class="form-control" id="guests" placeholder="2">
+          </div>
+          <div class="col"> <label for="date" class="form-label">Check in: </label>
+            <input type="date" class="form-control" id="email">
+          </div>
+          <div class="col"> <label for="night" class="form-label">Nights: </label><select class="form-select" aria-label="Default select example">          
+            <option value="1">1 night</option>
+            <option value="2">2 nights</option>
+            <option value="3">3 nights</option>
+            <option value="4">4 nights</option>
+            <option value="5">5 nights</option>
+            <option value="6">6 nights</option>
+            <option value="7">7 nights</option>
+          </select>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col"> <input class="btn" type="submit" value="Book">
+          </div>
+          <div class="col">
+            <!-- Button trigger modal -->
+<button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Video
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">View the hotel</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uYjIOJzYJ1s?si=nJqA9VoZgY06ntrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="container navbar-expand-lg navbar sticky-top" aria-label="Eleventh navbar example">
+      <div class="container">
+        <a class="navbar-brand" href="#">Vangelis Suite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-1 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history">History ans Surroundings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>                    
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--history-->
+    <a id="history"></a>
+    <section class="container bg-section py-2">
+      <div class="h2 text-center my-3">History and Surroundings</div>
+      <div class="row">
+        <div class="col col-sm-12 col-md-6 col-lg-4"><p style="font-family: 'Protest Riot', sans-serif;">Protaras is a tourist resort which comes under the administrative jurisdiction of Paralimni Municipality in Cyprus. In ancient times stood the old city-state of Leukolla here. The city used to be a small safe harbour in the 4th century BC. Protaras is also referred to as "the land of windmills", maintaining the nostalgic quality of the past. The town of Protaras is located northeast of the resort of Ayia Napa, right on the east coast of the island of Cyprus. Here, Aphrodite's island boasts a landscape of sandy beaches, windmills and fig trees. The Valley of the Windmills is especially magical in the late afternoon, when the white windmills contrast with the dark blue evening sky. Protaras is known as a diving area. The most popular diving location is Green Bay with underwater sculptures for thousands of beginners to enjoy while testing their diving skills.</p></div>
+        <div class="col col-sm-12 col-md-6 col-lg-4"><p style="font-family: 'Raleway', sans-serif;">The capital of Cyprus is Nicosia. It became the real commercial, political and cultural center of the country. The Old Town, the Cyprus Museum, the Famagusta Gate and the Archbishop's Palace are worth a visit in the metropolis. Abundant shops invite you to buy gold, pottery and other traditional products.
+
+          Nicosia is located in the interior of Cyprus, about 20 km from the northern coast and 40 km from the southern coast as the crow flies. The city is dependent on the international airport of Larnaca, which is connected to it by the A1/A2 highway.
+          Population of Nicosia
+          
+          Nicosia (over 300,000 inhabitants in total, including agglomerations, of which 4 fifths live in the southern part) is the capital of Cyprus, divided into two parts by the so-called green line since 1974. The northern part is under the administration of the Turkish Cypriots, the southern part is under the administration of the Republic of Cyprus with a preponderance of Greek residents. The old town of Nicosia is home to countless monuments, including the Venetian walls, which date back to the time when the Venetians ruled Cyprus.</p></div>
+        <div class="col col-sm-12 col-md-12 col-lg-4"><img class="d-none d-md-block" width="100%" src="https://source.unsplash.com/dnuJhB934P4" alt="surroundings" /></div>
+      </div>
+    </section>
+    <a id="pricing"></a>
+    <!--pricing-->
+    <section class="container bg-section py-2">
+        <div class="h2 text-center my-3">Pricing</div>
+        <div class="container">
+          <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
+              <div class="col my-1 d-flex justify-content-evenly">
+                  <div class="card d-block text-center" style="width: 14rem;">
+                      <img src="https://source.unsplash.com/SeQoUwpnyWk" class="card-img-top" alt="card1">
+                      <div class="card-body">
+                        <h5 class="card-title">Economy</h5>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Nr. Guests</th>
+                              <th scope="col">1 Night</th>
+                              <th scope="col">2 Nights</th>
+                              <th scope="col">One Week</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>50 &euro;</td>
+                              <td>90 &euro;</td>
+                              <td>250 &euro;</td>
+                            </tr>
+                            <tr>
+          
+                              <td>2</td>
+                              <td>55 &euro;</td>
+                              <td>100 &euro;</td>
+                              <td>270 &euro;</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>60 &euro;</td>
+                              <td>110 &euro;</td>
+                              <td>290 &euro;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <a href="#" class="btn-section">Book</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col my-1 d-flex justify-content-evenly">
+                  <div class="card d-block text-center" style="width: 14rem;">
+                      <img src="https://source.unsplash.com/aRT5UCf2MYY" class="card-img-top" alt="card1">
+                      <div class="card-body">
+                        <h5 class="card-title">Standard</h5>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Nr. Guests</th>
+                              <th scope="col">1 Night</th>
+                              <th scope="col">2 Nights</th>
+                              <th scope="col">One Week</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+          
+                              <td>1</td>
+                              <td>55 &euro;</td>
+                              <td>95 &euro;</td>
+                              <td>270 &euro;</td>
+                            </tr>
+                            <tr>
+          
+                              <td>2</td>
+                              <td>60 &euro;</td>
+                              <td>100 &euro;</td>
+                              <td>290 &euro;</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>65 &euro;</td>
+                              <td>110 &euro;</td>
+                              <td>310 &euro;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <a href="#" class="btn-section">Book</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col my-1 d-flex justify-content-evenly">
+                  <div class="card d-block text-center" style="width: 14rem;">
+                      <img src="https://source.unsplash.com/oxeCZrodz78" class="card-img-top" alt="card1">
+                      <div class="card-body">
+                        <h5 class="card-title">Deluxe</h5>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Nr. Guests</th>
+                              <th scope="col">1 Night</th>
+                              <th scope="col">2 Nights</th>
+                              <th scope="col">One Week</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+          
+                              <td>1</td>
+                              <td>60 &euro;</td>
+                              <td>100 &euro;</td>
+                              <td>300 &euro;</td>
+                            </tr>
+                            <tr>
+          
+                              <td>2</td>
+                              <td>70 &euro;</td>
+                              <td>120 &euro;</td>
+                              <td>320 &euro;</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>80 &euro;</td>
+                              <td>140 &euro;</td>
+                              <td>340 &euro;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <a href="#" class="btn-section">Book</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col my-1 d-flex justify-content-evenly">
+                  <div class="card d-block text-center" style="width: 14rem;">
+                      <img src="https://source.unsplash.com/Yrxr3bsPdS0" class="card-img-top" alt="card1">
+                      <div class="card-body">
+                        <h5 class="card-title">Superior</h5>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Nr. Guests</th>
+                              <th scope="col">1 Night</th>
+                              <th scope="col">2 Nights</th>
+                              <th scope="col">One Week</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+          
+                              <td>1</td>
+                              <td>70 &euro;</td>
+                              <td>130 &euro;</td>
+                              <td>310 &euro;</td>
+                            </tr>
+                            <tr>
+          
+                              <td>2</td>
+                              <td>80 &euro;</td>
+                              <td>150 &euro;</td>
+                              <td>330 &euro;</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>90 &euro;</td>
+                              <td>170 &euro;</td>
+                              <td>350 &euro;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <a href="#" class="btn-section">Book</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+    </section>
+    <a id="gallery"></a>
+      <!--gallery-->
+    <section class="container bg-section py-2">
+        <div class="h2 text-center my-2">Gallery</div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active my-3">
+                <img src="https://source.unsplash.com/D1yT791Nf9A" class="d-block w-100" alt="car1">
+                <div class="carousel-caption d-none d-md-block car-section">
+                  <h5>Hotel pool</h5>
+                </div>
+              </div>
+              <div class="carousel-item my-3">
+                <img src="https://source.unsplash.com/9ztssr7gntg" class="d-block w-100" alt="car2">
+                <div class="carousel-caption d-none d-md-block car-section">
+                  <h5>Beach</h5>
+                </div>
+              </div>
+              <div class="carousel-item my-3">
+                <img src="https://source.unsplash.com/ZbzYDboN7fg" class="d-block w-100" alt="car3">
+                <div class="carousel-caption d-none d-md-block car-section">
+                  <h5>Spa</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <a id="contact"></a>
+    <!--contact-->
+    <section class="container bg-section py-2">
+        <div class="h2 text-center my-2">Contact us</div>
+            <div class="container justify-content-evenly">
+              <div class="row row-cols-sm-1 row-cols-md-3 text-center">
+                  <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.6831158879086!2d34.0498350761384!3d35.01463676630317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfc41aad7738c7%3A0x8d88caee94a9479e!2sVangelis%20Hotel%20%26%20Suites!5e0!3m2!1scs!2scz!4v1707151030975!5m2!1scs!2scz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                  <div class="col">
+                  <div class="my-4"><i class="fa-brands fa-facebook fa-2xl"></i></div>
+                  <div class="mb-4"><i class="fa-brands fa-twitter fa-2xl"></i></div>
+                  <div class="mb-4"><i class="fa-brands fa-instagram fa-2xl"></i></div>
+                  </div>
+                  <div class="col">
+                      <div class="my-2"><i class="fa-solid fa-phone"></i></div>
+                      <div>+357 23734088</div>
+                      <div class="mb-2"><i class="fa-solid fa-envelope"></i></div>
+                      <div>info@vangelissuite.com</div>
+                      <div class="mb-2"><i class="fa-solid fa-house"></i></div>
+                      <div class="mb-2">34 Protaras Avenue, Paralimni 5286</div>
+                  </div>
+              </div>
+            </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          //navbar
+          const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+          const navbarToggler = document.querySelector('.navbar-toggler');
+          const collapseNavbar = function () {
+              // Ověříme, zda je navigační menu v rozbalovacím režimu
+              if (window.innerWidth < 992) {
+                  const bsCollapse = new bootstrap.Collapse(navbarToggler.nextElementSibling, {
+                      toggle: false
+                  });
+                  bsCollapse.hide();
+              }
+          };
+    
+    navLinks.forEach(function (link) {
+              link.addEventListener('click', collapseNavbar);
+          });
+    
+        //Vysvětlení:		
+          // nextElementSibling je JavaScriptová vlastnost, která vrátí element, který je bezprostředně 
+          // následující sourozencem daného elementu v DOM stromu. V tomto případě hledáte element, 
+          // který je hned za navbarToggler v HTML struktuře. V kontextu Bootstrap navigace, tento element 
+          // obvykle reprezentuje rozbalovací část navigační lišty. Pak vytváříte instanci 
+          // Bootstrap Collapse komponenty pro tento element, kterou pak můžete programově skrýt.
+
+          //modal
+          document.querySelectorAll('.modal').forEach(function (modal) {
+              modal.addEventListener('hide.bs.modal', function () {
+                  const memory = this.innerHTML;
+                  this.innerHTML = memory;
+              });
+          });
+});	
+          //Vysvětlení:
+          // document.querySelectorAll('.modal').forEach(function(modal) {...}): 
+          // Vybere všechny elementy s třídou modal a pro každý z nich provede funkci uvedenou v těle forEach.
+          // modal.addEventListener('hide.bs.modal', function() {...}): Přidává posluchače událostí pro každé modální okno, 
+          // který reaguje na událost hide.bs.modal - událost specifickou pro Bootstrap, která nastane, když se modální okno začíná skrývat.
+          // var memory = this.innerHTML; this.innerHTML = memory;: Ukládá aktuální HTML obsah modálního okna do proměnné memory a 
+          // poté ho okamžitě nastavuje zpět. Toto zachovává aktuální stav modálního okna, i když je skryto.
+
+  </script>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

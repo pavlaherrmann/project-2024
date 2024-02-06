@@ -1,0 +1,106 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+@import "../BS/node_modules/bootstrap/scss/bootstrap";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+// Then add additional custom code here
+
+.bg-section {
+    background-color: rgb(150, 240, 222);
+    margin: 10px auto;
+    color: grey;
+    font-style: oblique;
+  }
+.car-section {
+    background-color: rgba(159, 158, 158, 0.5);
+    border-radius: 20px;
+    color: rgb(150, 240, 222);
+  }
+  .btn-section {
+    background-color: rgb(150, 240, 222);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px auto;
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .card-title {
+    color:  rgb(80, 241, 209);
+    font-weight: bold;
+    text-shadow: 2px 2px grey;
+    font-size: x-large;
+  }
+  .td, tr, th {
+    font-size: x-small;
+  }
+  .bg-img {
+    background-image: url("https://source.unsplash.com/M7GddPqJowg");
+    color: rgb(80, 241, 209);
+    font-style: oblique;
+    background-size: 150%; //změním výšku při scrolování formu
+    background-position: center;
+    background-repeat: none;
+    width: 100%;
+    height: 100%;
+  }
+  .bg-form {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 15px auto;
+    max-width: 60%;
+  }
+  .form-control::placeholder {
+    color: grey;
+    font-size: small;
+  }
+  .form-control, .form-select {
+    background-color: rgb(80, 241, 209);
+    border-radius: 10px;
+    border: none;
+    color: grey;
+    font-size: small;
+  }
+  .btn, .btn:hover {
+    color: grey;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(80, 241, 209);
+    padding: 5px 50px;
+    margin-top: 15px;
+  }
+  .btn-modal {
+    color:  rgb(80, 241, 209);
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.789);
+    padding: 5px 50px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+  }
+  .modal-title {
+    color: grey;
+  }
+ .nav-link, .navbar-brand, .nav-item {
+    color: white;
+    font-weight: bold;
+  }
+  .navbar{
+    background-color: rgba(0, 0, 255, 0.789);
+  }
+  .nav-link:hover, .navbar-brand:hover {
+    color:  rgb(80, 241, 209);
+  }
+  .navbar-toggler {
+    background-color: white;
+    color: white;
+  }
